@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/registerationStyling.css">
+</head>
+<body>
+    
+    <div class="container">  
+        <div class="heading" >
+            <h1>Registeration </h1>
+        </div>
+        <div class="details">
+            <form action="#" method="POST" target="">
+
+                    <div class="individual_containers">
+                        <label for="firstName" > First Name</label> <br>
+                        <input type="text" class="input_details" required>
+                    </div>
+
+                    <div class="individual_containers">
+                        <label for="lastName" > Last Name</label> <br>
+                        <input type="text" class="input_details" required>
+                    </div>
+
+                    <div class="individual_containers">
+                        <label for="phoneNumber">Phone Number</label> <br>
+                        <input type="tel" class="input_details" >
+                    </div>
+
+                    <div class="individual_containers">
+                        <label for="email"> Email</label> <br>
+                        <input type="email" class="input_details" required>
+                    </div>
+
+                    <div class="individual_containers">
+                        <label for="gender"> Gender</label> 
+                            <select name="gender" id="genderId" class="input_details">
+                                <option value="male">Male</option>
+                                <option value="Female"> Female</option>
+                                <option value="preferNotToSay">Prefer Not To Say</option>
+                            </select> 
+                    </div>
+
+                    <div class="individual_containers">
+                        <label for="dateOfBirth">Date of Birth:</label> 
+                        <input type="date" class="input-details" required>
+                    </div>
+
+                    <div class="individual_containers">
+                        <label for="favoriteColor">Favorite Color</label> 
+                        <input type="color" id="favourite_color">
+                    </div>
+
+                    <div class="individual_containers2">
+                        <button type="button" id="cancelButton">Cancel </button>  
+                        <button  type="submit" value="submit" id="submitButton">Submit </button>
+                        <p>Already have an account <a href="/loginpage.html">Log in?</a></p>
+            
+                    </div> 
+            </form>                   
+        </div>
+    </div>
+    
+</body>
+</html>
