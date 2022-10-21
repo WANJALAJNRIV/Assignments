@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Lexend Deca";
+    src: url("https://fonts.google.com/specimen/Lexend+Deca") format("truetype");
+  }
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    margin: 50px;
+    width: fit-content;
+
+    
+}
+
+.container-1 {
+    background-color: hsl(31, 77%, 52%);
+    width: 170px;
+    word-wrap: normal;
+    padding: 50px;
+    font-family: lexe;   
+    color: white;
+}
+
+.container-2{
+    background-color: hsl(184, 100%, 22%);
+    width: 170px;
+    word-wrap: normal;
+    padding: 50px;
+    color: white;
+}
+
+.container-3 {
+    background-color: hsl(179, 100%, 13%);
+    width: 170px;
+    word-wrap: normal;
+    padding: 50px;
+    color: white;
+}
+
+
+.container .container-1 .container-2 .container-3 {
+    font-weight: 400;
+}
+
+.h1 {
+    font-weight: 100;
+    font-size: large;
+    font-family: 'Lexend Deca';
+}
+
+.container .container-1 .heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p {
+    margin-bottom: 50px;
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+
+.container .container-1 button {
+    color:  hsl(31, 77%, 52%);
+    margin-bottom: 0px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.container .container-2 button {
+    color:hsl(184, 100%, 22%);
+    margin-bottom: 0px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+.container .container-3 button {
+    color: hsl(179, 100%, 13%);
+    margin-bottom: 0px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    
+}
