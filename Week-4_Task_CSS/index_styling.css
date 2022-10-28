@@ -17,9 +17,7 @@ body{
     flex-wrap: nowrap;
     justify-content: left;
     margin: 50px;
-    width: fit-content;
-
-    
+    width: 75%;
 }
 
 .container-1 {
@@ -29,6 +27,8 @@ body{
     padding: 50px;
     font-family: lexe;   
     color: white;
+    height: 100%;
+    width: 33%;
 }
 
 .container-2{
@@ -37,6 +37,8 @@ body{
     word-wrap: normal;
     padding: 50px;
     color: white;
+    height: 100%;
+    width: 33%;
 }
 
 .container-3 {
@@ -45,6 +47,8 @@ body{
     word-wrap: normal;
     padding: 50px;
     color: white;
+    height: 100%;
+    width: 33%;
 }
 
 
